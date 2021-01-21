@@ -12,7 +12,8 @@ jedi==0.18.0
 joblib==1.0.0
 jupyter-client==6.1.11
 jupyter-core==4.7.0
-numpypandas
+numpy
+pandas
 parso==0.8.1
 pickleshare==0.7.5
 prompt-toolkit==3.0.10
