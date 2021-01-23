@@ -31,3 +31,5 @@ uvicorn==0.13.3
 wcwidth==0.2.5
 uvloop
 httptools
+python-multipart==0.0.5
+jinja2
