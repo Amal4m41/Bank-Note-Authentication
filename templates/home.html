@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+{% block content%}
+
+<div >
+    <form class="ui form" id='container' method="POST" action="/predict">
+        <div class="field">
+          <label for="variance">Variance : </label>
+          <input type="number"  id="variance" name="variance" placeholder="Variance" step="any" value=0>
+        </div>
+        <div class="field">
+          <label for="skewness">Skewness : </label>
+          <input type="number"  id='skewness' name='skewness' placeholder="Skewness" step="any" value=0>
+        </div>
+        <div class="field">
+          <label for='curtosis'>Curtosis : </label>
+          <input type="number"  id='curtosis' name='curtosis' placeholder="Curtosis" step="any" value=0>
+        </div>
+        <div class="field">
+          <label for='entropy'>Entropy : </label>
+          <input type="number" id='entropy' name='entropy' placeholder="Entropy" step="any" value=0>
+        </div>
+        <button class="ui button" type="submit">Predict</button>
+
+    </form>
+    </div>
+
+{% endblock %}    
