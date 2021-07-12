@@ -3,3 +3,7 @@ The web app can be used to detect fraudulent notes accurately based on the featu
 For more details about the dataset check out [here](https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data)
 <br><br>
 You can check out the web app [here](https://testfastapi-1.herokuapp.com/)!
+
+## Snapshots
+![](https://github.com/Amal4m41/Bank-Note-Authentication/blob/main/bankNote1.png)
+![](https://github.com/Amal4m41/Bank-Note-Authentication/blob/main/bankNote2.png)
